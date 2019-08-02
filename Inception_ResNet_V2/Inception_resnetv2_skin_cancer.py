@@ -2,7 +2,7 @@
 """
 Created on Sat Jun 29 14:17:00 2019
 
-@author: Yesser
+@author: Yesser H. Nasser
 """
 import pandas as pd
 import numpy as np
@@ -158,7 +158,7 @@ def Reduction_A(x,k,l,m,n): # input (35,35,384)
    
     return x #(17,17,1152)
 
-def Inception_resnet_B(x): # input (17,17,1152)    ''' had to cnage 1154 to 1152 to be consistent with dimentions''' 
+def Inception_resnet_B(x): # input (17,17,1152)    ''' had to change 1154 to 1152 to be consistent with dimentions - Figure 17 - paper ''' 
     
     x_shortcut = x
     
