@@ -198,7 +198,7 @@ def Reduction_B(x): # input (17,17,1152)
     
     return x #  (8,8,2144)
 
-def Inception_resnet_C(x): # input (8,8,2144)   ''' had to cnage 2048 to 2144 to be consistent with dimentions'''  
+def Inception_resnet_C(x): # input (8,8,2144)   ''' had to cnage 2048 to 2144 to be consistent with dimentions - Figure 19 - paper'''  
 
     x_shortcut = x
     
