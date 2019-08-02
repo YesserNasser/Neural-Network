@@ -2,7 +2,7 @@
 """
 Created on Fri Jun 28 13:41:59 2019
 
-@author: Yesser
+@author: Yesser H. Nasser
 """
 
 '''
@@ -26,7 +26,7 @@ from keras.models import Model
 
 # ======================================import data=======================================================
 # import data
-DIR = 'C:/Users/Yesser/Desktop/python/DataSets/SkinCancer'
+DIR = '/DataSets/SkinCancer'
 #import csv
 skin_cancer_df = pd.read_csv(os.path.join(DIR, 'HAM10000_metadata.csv'))
 # dict of image id and image path
