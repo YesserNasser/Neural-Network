@@ -1,8 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Created on Fri Jun 28 13:41:59 2019
-
-@author: Yesser
+@author: Yesser H. Nasser
 """
 
 '''
