@@ -77,8 +77,7 @@ from keras.utils import to_categorical
 from keras.models import Model
 
 # define Stem in the Inception_ResNet v2
-# define Stem in the Inception_ResNet v2
-def Stem(x): #input (299,299,3) (modified stride to (1,1) padding to 'same' first layer 
+def Stem(x): #input (299,299,3)  
     x = Conv2D(32,(3,3), padding = 'valid', strides =(2,2), activation='relu', kernel_initializer = keras.initializers.glorot_uniform())(x)
 
     x = Conv2D(32,(3,3), padding = 'valid', strides =(1,1), activation='relu', kernel_initializer = keras.initializers.glorot_uniform())(x)
