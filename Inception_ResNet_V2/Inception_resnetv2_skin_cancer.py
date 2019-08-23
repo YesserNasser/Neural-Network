@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 """
 Created on Sat Jun 29 14:17:00 2019
-
 @author: Yesser H. Nasser
 """
 import pandas as pd
@@ -9,14 +8,11 @@ import numpy as np
 import os
 import matplotlib.pyplot as plt
 
-
 from PIL import Image
 from keras.utils import to_categorical
 from sklearn.model_selection import train_test_split
 
-
 from glob import glob
-
 
 # import data
 DIR = '/DataSets/SkinCancer'
