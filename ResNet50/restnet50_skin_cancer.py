@@ -233,7 +233,6 @@ print('model accruracy is ', test_eval[1])
 
 
 # evaluate the training
-
 accuracy = Model_Skin_Cancer_ResNet50.history['acc']
 val_accuracy = Model_Skin_Cancer_ResNet50.history['val_acc']
 
