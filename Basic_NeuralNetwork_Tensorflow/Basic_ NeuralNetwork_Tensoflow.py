@@ -110,7 +110,6 @@ biases = {
 keep_prob = tf.placeholder("float")
 
 
-
 training_epochs = 5000
 display_step = 1000
 batch_size = 32
