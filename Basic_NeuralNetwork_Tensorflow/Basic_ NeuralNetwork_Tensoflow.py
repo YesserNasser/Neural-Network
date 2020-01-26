@@ -13,7 +13,6 @@ from pylab import rcParams
 
 
 rcParams['figure.figsize'] = 10, 5
-
 # ======================================================================================
 # read & load the data
 math_df = pd.read_csv('student-mat.csv', sep = ';')
