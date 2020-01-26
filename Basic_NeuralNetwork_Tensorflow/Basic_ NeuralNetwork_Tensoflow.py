@@ -84,7 +84,6 @@ y_train = train_y.iloc[0:train_cnt].values
 x_test = train_x.iloc[train_cnt:].values
 y_test = train_y.iloc[train_cnt:].values
 
-
 # building the neural network
 
 def multilayer_perceptron(x, weights, biases, keep_prob):
